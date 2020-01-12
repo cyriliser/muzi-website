@@ -931,3 +931,13 @@ span {
 .foot-note a.fh5-link {
   margin-left: 0;
 }
+
+.form-control:focus{
+  background-color: #444;
+}
+
+@media (max-width: 768px) {
+  .sm-hide{
+    display: none;
+  }
+}
