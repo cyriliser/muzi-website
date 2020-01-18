@@ -25,7 +25,7 @@
     1 - Header
 ------------------------------------*/
 header {
-  background-color: rgba(26, 10, 56, 0.53);
+  background-color: rgba(255, 157, 0, 0.75);
   color: #fff;
   z-index: 1000;
 }
@@ -195,11 +195,12 @@ form button.btn-primary:hover {
 }
 
 .hero .slide-content p {
-  color: #170936;
+  color: #fff;
   -webkit-transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
           transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
   padding: 35px 0 35px 30px;
-  background-color: rgba(255, 255, 255, 0.51);
+  background-color: rgba(255,157,0,0.6);
+  /* background-color: rgba(255,157,0,0.6); */
   border-top-right-radius: 100px;
   border-bottom-left-radius: 10px;
   margin-bottom: 0;
@@ -240,7 +241,7 @@ form button.btn-primary:hover {
   height: 100%;
   -webkit-clip-path: polygon(0 0, 100% 100%, 100% 0);
           clip-path: polygon(0 0, 100% 100%, 100% 0);
-  background-color: rgba(240, 0, 255, 0.1);
+  background-color: rgba(255, 157, 0, 0.1);
   position: absolute;
   top: 0;
   left: 0;
@@ -941,3 +942,6 @@ span {
     display: none;
   }
 }
+
+
+

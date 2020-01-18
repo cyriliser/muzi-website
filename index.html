@@ -9,8 +9,7 @@
     <title>Quality Designs | Home</title>
     <!-- Stylesheets & Fonts -->
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i%7CRajdhani:400,600,700"
-        rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i%7CRajdhani:400,600,700" rel="stylesheet"> -->
     <!-- Plugins Stylesheets -->
     <link rel="stylesheet" href="assets/css/loader/loaders.css">
     <link rel="stylesheet" href="assets/css/font-awesome/font-awesome.css">
@@ -22,6 +21,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive Stylesheet -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- custom additional styles -->
+    <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
 <body>
@@ -37,10 +38,10 @@
             <nav class="navbar navbar-expand-md navbar-light">
 
                 <!-- image logo -->
-                <!-- <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Multipurpose"></a> -->
+                <!-- <a class="navbar-brand" href="index.html"><img src="assets/images/logo.jpeg" alt="Multipurpose"></a> -->
                 
                 <!-- text company name -->
-                <a class="navbar-brand" href="index.html"><h2>Company Logo</h2></a>
+                <a class="navbar-brand" href="index.html"><h2>Quality Designs</h2></a>
 
                 <!-- navbar toggler on small screens -->
                 <div class="group d-flex align-items-center">
@@ -151,7 +152,7 @@
             <div class="container">
                 <div class="row">
                     <!-- service element Start -->
-                    <div class="col-sm-6 col-lg-6">
+                    <div class="col-sm-6 col-lg-4 ">
                         <div class="media" data-aos="fade-up" data-aos-delay="200" data-aos-duration="400">
                             <!-- <img class="mr-4" src="assets/images/service1.png" alt="Web Development"> -->
                             <div class="media-body">
@@ -160,10 +161,10 @@
                                 
 
                                 <!-- service group description -->
-                                Donec volutpat tincidunt neque, vitae lobortis libero mattis sed tempus.
+                                <p class="pb-2"> Donec volutpat tincidunt neque, vitae lobortis libero mattis sed tempus.</p>
                                 
                                 <!-- services list -->
-                                <div class="card">
+                                <div class="card" style="border-left: 0px; border-right: 0px; border-bottom: 0px;" >
                                     <ul class="list-group list-group-flush">
                                       <li class="list-group-item"><img class="mr-4" src="assets/images/service1.png" alt="Web Development"> Strategy and Operations</li>
                                       <li class="list-group-item"><img class="mr-4" src="assets/images/service2.png" alt="Web Development"> Technology Consulting</li>
@@ -176,20 +177,37 @@
                     <!-- service element end -->
 
                     <!-- service element Start -->
-                    <div class="col-sm-6 col-lg-6">
+                    <div class="col-sm-6 col-lg-8">
                         <div class="media" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600">
                             <!-- <img class="mr-4" src="assets/images/service2.png" alt="Web Development"> -->
                             <div class="media-body">
                                 <a href="./products-services.html#digital_solutions"><h5>Digital Solutions</h5></a>
-                                Donec volutpat tincidunt neque, vitae lobortis libero mattis sed tempus.
-                                <div class="card">
-                                    <ul class="list-group list-group-flush">
-                                      <li class="list-group-item"><img class="mr-4" src="assets/images/service4.png" alt="Web Development"> Customer Relationship Management</li>
-                                      <li class="list-group-item"><img class="mr-4" src="assets/images/service5.png" alt="Web Development"> Custom Application Development</li>
-                                      <li class="list-group-item"><img class="mr-4" src="assets/images/service6.png" alt="Web Development"> Electronic Content Management</li>
-                                      <li class="list-group-item"><img class="mr-4" src="assets/images/service7.png" alt="Web Development"> Project Portfolio Management</li>
-                                      <li class="list-group-item"><img class="mr-4" src="assets/images/service8.png" alt="Web Development"> Real Estate Management System</li>
-                                      <li class="list-group-item"><img class="mr-4" src="assets/images/service9.png" alt="Web Development"> Web and Mobile Apllications</li>
+                                <p class="py-3"> Donec volutpat tincidunt neque, vitae lobortis libero mattis sed tempus.</p>
+                                <div class="card" style="border-bottom: 0px;">
+                                    <ul class="list-group list-group-flush " style="flex-direction: row1;">
+                                        <div class="row mb-1">
+                                            <li class="list-group-item col-lg-6"><img class="" src="assets/images/service4.png" alt="Web Development"> Customer Relationship Management</li>
+                                            <li class="list-group-item col-lg-6" style="border-top: 0px;"><img class="mr-2" src="assets/images/service5.png" alt="Web Development"> Custom Application Development</li>
+                                        </div>
+                                        <div class="row mb-1">
+                                            <li class="list-group-item col-lg-6"><img class="mr-2" src="assets/images/service6.png" alt="Web Development"> Electronic Content Management</li>
+                                            <li class="list-group-item col-lg-6" style="border-top: 0px;" ><img class="mr-2" src="assets/images/service7.png" alt="Web Development"> Project Portfolio Management</li>
+                                        </div>
+                                        <div class="row mb-1">
+                                            <li class="list-group-item col-lg-6"><img class="mr-2" src="assets/images/service8.png" alt="Web Development"> Real Estate Management System</li>
+                                            <li class="list-group-item col-lg-6" style="border-top: 0px;" ><img class="mr-2" src="assets/images/service9.png" alt="Web Development"> Web and Mobile Apllications</li>
+                                        </div>
+                                        <!-- <div class="r1 col-lg-6"> -->
+                                            <!-- <li class="list-group-item "><img class="mr-4" src="assets/images/service4.png" alt="Web Development"> Customer Relationship Management</div></li>
+                                            <li class="list-group-item "><img class="mr-4" src="assets/images/service5.png" alt="Web Development"> Custom Application Development</li>
+                                            <li class="list-group-item "><img class="mr-4" src="assets/images/service6.png" alt="Web Development"> Electronic Content Management</li> -->
+                                        <!-- </div> -->
+
+                                        <!-- <div class="r2 col-lg-6"> -->
+                                            <!-- <li class="list-group-item "><img class="mr-4" src="assets/images/service7.png" alt="Web Development"> Project Portfolio Management</li>
+                                            <li class="list-group-item "><img class="mr-4" src="assets/images/service8.png" alt="Web Development"> Real Estate Management System</li>
+                                            <li class="list-group-item "><img class="mr-4" src="assets/images/service9.png" alt="Web Development"> Web and Mobile Apllications</li> -->
+                                        <!-- </div> -->
                                     </ul>
                                 </div>
                             </div>
