@@ -113,7 +113,7 @@ header::after {
 }
 
 .navbar-brand img {
-  width: 135px;
+  width: 200px;
 }
 
 .navbar-collapse .search-form input[type="text"] {
@@ -331,6 +331,10 @@ form button.btn-primary:hover {
 
 .title .title-primary {
   color: #ee1515;
+}
+
+.title .title-orange {
+  color: #FF9D00;
 }
 
 .services {
@@ -656,12 +660,12 @@ form button.btn-primary:hover {
     1 - Testimonials
 ------------------------------------*/
 .testimonial-and-clients {
-  background: url(../images/test-clients-bg.png) center center/cover no-repeat #ee1515;
+  background: url(../images/test-clients-bg.png) center center/cover no-repeat #4D4D55;
 }
 
 .testimonials {
   padding: 95px 0 85px;
-  color: #fff;
+  color: #FF9D00;
   border-bottom: 1px solid #26264b;
 }
 
@@ -746,7 +750,7 @@ form button.btn-primary:hover {
     1 - Footer
 ------------------------------------*/
 footer {
-  background: url(../images/footer-bg.png) center center/cover no-repeat #26264b;
+  background: url(../images/footer-bg.png) center center/cover no-repeat #FF9D00;
 }
 
 /*-----------------------------------
@@ -917,12 +921,12 @@ span {
 ------------------------------------*/
 .foot-note {
   padding: 35px 0;
-  background-color: #ee1515;
-  color: #26264b;
+  background-color: #F0640C;
+  color: #4D4D55;
 }
 
 .foot-note a {
-  color: #26264b;
+  color: #4D4D55;
 }
 
 .foot-note a:last-child {
