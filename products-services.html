@@ -1,16 +1,17 @@
 <!doctype html>
 <html lang="en">
 
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Document title -->
-    <title>Company Name | Home</title>
+    <title>Quality Designs | Home</title>
     <!-- Stylesheets & Fonts -->
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i%7CRajdhani:400,600,700"
-        rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i%7CRajdhani:400,600,700" rel="stylesheet"> -->
     <!-- Plugins Stylesheets -->
     <link rel="stylesheet" href="assets/css/loader/loaders.css">
     <link rel="stylesheet" href="assets/css/font-awesome/font-awesome.css">
@@ -22,6 +23,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive Stylesheet -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- custom additional styles -->
+    <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
 <body>
@@ -33,21 +36,45 @@
     <!-- Header Start -->
     <header class="position-absolute w-100">
         <div class="container">
+            <div class="top-header d-none d-sm-flex justify-content-between align-items-center">
+                <div class="contact">
+                    <a href="tel:+27312661790" class="tel mr-3"><i class="fa fa-phone" aria-hidden="true"></i>(+27) 31 266 1790</a>
+                    <a href="mailto:Support@companydomain.com" class="mr-3"><i class="fa fa-envelope" aria-hidden="true"></i>info@qualitydesigns.africa</a>
+                    <a href="vecancies.html" class="mr-3"> <i class="fa fa-users"></i> Careers</a>
+                </div>
+                <nav class="d-flex aic">
+                    <!-- <a class="search-icon d-none d-md-block" href="#"><i class="fa fa-search"></i></a> -->
+                    <form class="bg-white search-form" method="get" id="searchform">
+                        <div class="input-group">
+                            <input class="field form-control pl-2" id="s" name="s" type="text" placeholder="Search">
+                            <span class="input-group-btn">
+                                <input class="submit btn btn-sm btn-primary h-100" id="searchsubmit" name="submit" type="submit"
+                                    value="Search">
+                            </span>
+                        </div>
+                    </form>
+
+                    <!-- <a href="#" class="login"><i class="fa fa-user" aria-hidden="true"></i>Login</a>
+                    <ul class="nav social d-none d-md-flex">
+                        <li><a href="https://www.facebook.com/fh5co" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    </ul> -->
+                </nav>
+            </div>
             <!-- navbar -->
-            <nav class="navbar navbar-expand-md navbar-light">
+            <nav class="navbar navbar-expand-md navbar-light py-0">
 
                 <!-- image logo -->
-                <!-- <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Multipurpose"></a> -->
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.jpeg" width="200" height="70" alt="Multipurpose"></a>
                 
                 <!-- text company name -->
-                <a class="navbar-brand" href="index.html"><h2>Company Logo</h2></a>
+                <!-- <a class="navbar-brand" href="index.html"><h2>Quality Designs</h2></a> -->
 
                 <!-- navbar toggler on small screens -->
                 <div class="group d-flex align-items-center">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation"><span
-                            class="navbar-toggler-icon"></span></button>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                    </button>
                 </div>
 
                 <!-- collapsable nav -->
@@ -55,15 +82,40 @@
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="./about.html">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./products-services.html">Products & Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./vecancies.html">Vecancies</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="./products-services.html">Products & Services</a></li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Solutions and Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="products-services.html">Solutions and Services</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="products-services.html#consulting">Consulting</a>
+                                <a class="dropdown-item" href="products-services.html#digital-solutions">Digital Solutions</a>
+                                <a class="dropdown-item" href="products-services.html#cloud-services">Cloud Services</a>
+                                <a class="dropdown-item" href="products-services.html#devices">Devices</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="./industries.html">Industries</a></li>
                         <li class="nav-item"><a class="nav-link" href="./contact-us.html">Contact Us</a></li>
                     </ul>
+
+                    <form class="bg-white search-form mb-3" method="get" id="searchform">
+                        <div class="input-group">
+                            <input class="field form-control" id="s" name="s" type="text" placeholder="Search">
+                            <span class="input-group-btn">
+                                <input class="submit btn btn-primary" id="searchsubmit" name="submit" type="submit"
+                                    value="Search">
+                            </span>
+                        </div>
+                    </form>
                 </div>
             </nav>
         </div>
     </header>
     <!-- Header End -->
+    
+    
 
     <!-- Call To Action Start -->
     <!-- <section class="cta pt-5 " data-aos="fade-up" data-aos-delay="0">
@@ -378,69 +430,87 @@
         <div class="footer-widgets py-5">
             <div class="container">
                 <div class="row">
-                    <!-- contact details start -->
-                    <div class="col-md-6 col-xl-3">
-                        <div class="single-widget contact-widget" data-aos="fade-up" data-aos-delay="0">
-                            <h5 class="widget-tiltle text">Contact Details&nbsp;</h5>
-                            <!-- <p>By subscribing to our mailing list you will always be update with the latest news from
-                                us.
-                            </p> -->
-
-                            <!-- address -->
-                            <div class="media">
-                                <i class="fa fa-map-marker"></i>
-                                <div class="media-body ml-3">
-                                    <h6>Address</h6>
-                                    11 Ridge Road,<br>
-                                    Scottsville 3201 <br>
-                                    PMB South Africa
-                                </div>
-                            </div>
-                            <!-- email -->
-                            <div class="media">
-                                <i class="fa fa-envelope-o"></i>
-                                <div class="media-body ml-3">
-                                    <h6>Email</h6>
-                                    <a href="mailto:support@companydomain.com">Support@companydomain.com</a>
-                                </div>
-                            </div>
-                            <!-- tell -->
-                            <div class="media">
-                                <i class="fa fa-phone"></i>
-                                <div class="media-body ml-3">
-                                    <h6>Tell</h6>
-                                    <a href="tel:+27333860596"> (+27) 33 386 0596</a>
-                                </div>
-                            </div>
-                            <!-- fax -->
-                            <div class="media">
-                                <i class="fa fa-fax"></i>
-                                <div class="media-body ml-3">
-                                    <h6>Fax</h6>
-                                    <a href="fax:0333860596">(+27) 33 386 0596</a>
-                                </div>
-                            </div>
+                    <!-- short about -->
+                    <div class="col-lg-3">
+                        <div class="single-widget contact-widget text-white">
+                            <img src="assets/images/logo.jpeg" alt="" class="" width="200" height="60">
+                            <p class="mt-3">
+                                Quality designs (QD) - a leading-edge software provider and IT services, to develop
+                                efficient and effective solutions that keep businesses one-step ahead. We offer strategy,
+                                consulting, development, support and technical services to enhance digital business,
+                                workplace productivity, and customer experience through the effective use and adoption
+                                of technology.
+                            </p>
+                            <h5><a href="about.html" class="text-primary">Read More</a></h5>
                         </div>
                     </div>
-                    <!-- contact details end -->
 
-                    <!-- popular tags and subscribe -->
-                    <div class="col-md-6 col-xl-3">
-                        <!-- subscribe and social -->
-                        <div class="single-widget subscribe-widget" data-aos="fade-up" data-aos-delay="800">
-                            <h6 class="widget-tiltle">Social Media Handles</h6>
-                            <ul class="nav social-nav">
-                                <li><a href="https://www.facebook.com/fh5co" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <!-- services -->
+                    <div class="col-lg-3">
+                        <div class="single-widget contact-widget text-white">
+                            <h5>Services</h5>
+                            <ul class="list-group bg-secondary" style="background-color: #FF9D00;" >
+                                <li class="list-group-item pb-0 pl-2" style="background-color: #FF9D00; border: none;"><h5 class="mb-0"> <a class="text-white" href="products-services.html#consulting">Consulting</a class="text-white"> </h5></li>
+                                    <!-- <li class="list-group-item py-1 pl-4" style="background-color: #FF9D00; border: none;"><a class="text-white">Strategy and Operations</a></li>
+                                    <li class="list-group-item py-1 pl-4" style="background-color: #FF9D00; border: none;"><a class="text-white">Technology Consulting</a></li>
+                                    <li class="list-group-item py-1 pl-4" style="background-color: #FF9D00; border: none;"><a class="text-white">Project Management Services</a></li> -->
+                                <li class="list-group-item pb-0 pl-2" style="background-color: #FF9D00; border: none;"><h5 class="mb-0"> <a class="text-white" href="products-services.html#digital-solutions">Digital Solutions</a> </h5></li>
+                                    <!-- <li class="list-group-item py-1 pl-4" style="background-color: #FF9D00; border: none;"><a class="text-white">Customer Relationship Management</a></li>
+                                    <li class="list-group-item py-1 pl-4" style="background-color: #FF9D00; border: none;"><a class="text-white">Electronic Content Management</a></li>
+                                    <li class="list-group-item py-1 pl-4" style="background-color: #FF9D00; border: none;"><a class="text-white">Real Estate Management System</a></li>
+                                    <li class="list-group-item py-1 pl-4" style="background-color: #FF9D00; border: none;"><a class="text-white">Custom Application Development</a></li>
+                                    <li class="list-group-item py-1 pl-4" style="background-color: #FF9D00; border: none;"><a class="text-white">Project Portfolio Management</a></li>
+                                    <li class="list-group-item py-1 pl-4" style="background-color: #FF9D00; border: none;"><a class="text-white">Web and Mobile Apllications</a></li> -->
+                                <li class="list-group-item pb-0 pl-2" style="background-color: #FF9D00; border: none;"><h5 class="mb-0"> <a class="text-white" href="products-services.html#cloud-and-services">Cloud Services</a> </h5></li>
+                                <li class="list-group-item pb-0 pl-2" style="background-color: #FF9D00; border: none;"><h5 class="mb-0"> <a class="text-white" href="products-services.html#devices">Devices</a> </h5></li>
+
                             </ul>
+                        </div>
+                    </div>
 
-                            <!-- google map -->
-                            <div class="googlemaps-area embed-responsive embed-responsive-16by9 my-3 py-2 ">
-                                <iframe class="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3468.423629430679!2d30.39612821468372!3d-29.62043701864389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef6bc52e27f3137%3A0x6dd6d60dba158838!2s11%20Ridge%20Rd%2C%20Scottsville%2C%20Pietermaritzburg%2C%203201!5e0!3m2!1sen!2sza!4v1578755195464!5m2!1sen!2sza" width="600" height="900" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    <!-- links -->
+                    <div class="col-lg-3">
+                        <div class="single-widget contact-widget text-white">
+                            <h5>Usefull Links</h5>
+                            <ul class="list-group bg-secondary" style="background-color: #FF9D00;" >
+                                <li class="list-group-item py-1 pl-4" style="background-color: #FF9D00; border: none;"><a class="text-white" href="products-services.html">services</a class="text-white"></li>
+                                <li class="list-group-item py-1 pl-4" style="background-color: #FF9D00; border: none;"><a class="text-white" href="vecancies.html">Available Vacancies</a></li>
+                                <li class="list-group-item py-1 pl-4" style="background-color: #FF9D00; border: none;"><a class="text-white" href="about.html">Our Leadership</a></li>
+                                <li class="list-group-item py-1 pl-4" style="background-color: #FF9D00; border: none;"><a class="text-white" href="about.html">About Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- contact details -->
+                    <div class="col-lg-3">
+                        <div class="single-widget contact-widget text-white">
+                            <h5>Contact Us</h5>
+                            <ul class="list-group bg-secondary" style="background-color: #FF9D00;" >
+                                <li class="list-group-item pb-0 pl-2" style="background-color: #FF9D00; border: none;"><h5><i class="fa fa-map-marker mr-2"></i>Physical Address</h5></li>
+                                    <li class="list-group-item py-0 pl-5" style="background-color: #FF9D00; border: none;"><p class="m-0">24 David McLean Drive <br> Westville 3629 <br> Durban, KwaZulu-Natal <br> South Africa</p></li>
+                                <li class="list-group-item pl-0 pb-0" style="background-color: #FF9D00; border: none;"><h5><i class="fa fa-envelope-o mr-2"></i>Email</h5></li>
+                                    <li class="list-group-item py-0 pl-5" style="background-color: #FF9D00; border: none;"><a href="mailto:info@qualitydesigns.africa" target="_blank" class="text-white">info@qualitydesigns.africa</a></li>
+                                <li class="list-group-item pl-0 pb-0" style="background-color: #FF9D00; border: none;"><h5><i class="fa fa-phone mr-2"></i>Tell</h5></li>
+                                    <li class="list-group-item py-0 pl-5" style="background-color: #FF9D00; border: none;"><a class="text-white" href="tel:+27312661790" target="_blank">(+27) 31 266 1790</a></li>
+                                <li class="list-group-item pl-0 pb-0" style="background-color: #FF9D00; border: none;"><h5><i class="fa fa-fax mr-2"></i>Fax</h5></li>
+                                    <li class="list-group-item py-0 pl-5" style="background-color: #FF9D00; border: none;"><a class="text-white" href="fax:+27862080595" target="_blank">(+27) 86 208 0595</a></li>
+                                <li class="list-group-item pl-0 pb-0" style="background-color: #FF9D00; border: none;"><h5><i class="fa fa-mobile mr-2"></i>Mobile</h5></li>
+                                    <li class="list-group-item py-0 pl-5" style="background-color: #FF9D00; border: none;"><a class="text-white" href="tel:+27722806395" target="_blank">(+27) 72 280 6395</a></li>
+                                <li class="list-group-item pl-0 pb-0" style="background-color: #FF9D00; border: none;"><h5><i class="fa fa-whatsapp mr-2"></i>Whatsapp</h5></li>
+                                    <li class="list-group-item py-0 pl-5" style="background-color: #FF9D00; border: none;"><a class="text-white" href="https://wa.me/27722806395" target="_blank">(+27) 72 280 6395</a></li>
+                                </ul>
+
+                            <!-- social Icons -->
+                            <div class="single-widget subscribe-widget" data-aos="fade-up" data-aos-delay="800">    
+                                <ul class="nav social-nav">
+                                    <li><a href="https://www.facebook.com/fh5co" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -455,6 +525,7 @@
                     class="footer-content text-center text-lg-left d-lg-flex justify-content-between align-items-center">
                     <p class="mb-0" data-aos="fade-right" data-aos-offset="0">&copy; 2020 All Rights Reserved.</p>
                     <p class="mb-0" data-aos="fade-left" data-aos-offset="0">
+                        <!-- <a href="#">Terms Of Use</a> -->
                         <a href="#">Privacy & Security Statement</a>
                     </p>
                 </div>
@@ -462,6 +533,7 @@
         </div>
         <!-- Foot Note End -->
     </footer>
+
 
     <!-- Footer Endt -->
     <!--jQuery-->
