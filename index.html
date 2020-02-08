@@ -32,31 +32,11 @@
     </div>
     <!-- Loader End -->
     <!-- Header Start -->
-    <header class="position-absolute w-100 bg-white container-fluid p-0">
+    <header class="sticky-top w-100 bg-white container-fluid p-0">
         <div class="">
             <!-- top header -->
             <div class=" bg-primary">
-                <div class="container top-header d-none d-sm-flex justify-content-between align-items-center">
-                <!-- left -->
-                <nav class="d-flex aic py-1">
-                    <!-- <a class="search-icon d-none d-md-block" href="#"><i class="fa fa-search"></i></a> -->
-                    <form class="bg-white search-form" method="get" id="searchform">
-                        <div class="input-group">
-                            <span class="input-group-btn">
-                                <input class="submit btn btn-sm btn-primary h-100" id="searchsubmit" name="submit" type="submit"
-                                    value="Search">
-                            </span>
-                            <input class="field form-control pl-2" id="s" name="s" type="text" placeholder="Search">
-                        </div>
-                    </form>
-
-                    <!-- <a href="#" class="login"><i class="fa fa-user" aria-hidden="true"></i>Login</a>
-                    <ul class="nav social d-none d-md-flex">
-                        <li><a href="https://www.facebook.com/fh5co" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    </ul> -->
-                </nav>
+                <div class="container top-header d-none d-sm-flex justify-content-end py-2 align-items-center">
 
                 <!-- right -->
                 <div class="contact">
@@ -68,13 +48,10 @@
 
             </div>
             <!-- navbar -->
-            <nav class="container navbar navbar-expand-md navbar-light bg-white text-black w-100 py-0">
+            <nav class="container navbar navbar-expand-md navbar-light bg-white text-black w-100 py-0 ">
 
                 <!-- image logo -->
                 <a class="navbar-brand" href="index.html"><img src="assets/images/logo.jpeg" width="200" height="70" alt="Multipurpose"></a>
-                
-                <!-- text company name -->
-                <!-- <a class="navbar-brand" href="index.html"><h2>Quality Designs</h2></a> -->
 
                 <!-- navbar toggler on small screens -->
                 <div class="group d-flex align-items-center">
@@ -87,39 +64,179 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav ">
                         <li class="nav-item"><a class="nav-link text-primary" href="./index.html">Home</a></li>
+
                         <li class="nav-item"><a class="nav-link text-primary" href="./about.html">About Us</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link text-primary" href="./products-services.html">Products & Services</a></li> -->
+
+                        <!-- test dropdown -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link text-primary dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-primary" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              test
+                            </a>
+                            <ul class="dropdown-menu multi-level text-primary" role="menu" aria-labelledby="dropdownMenu">
+                                <li class="dropdown-item text-primary"><a class="text-primary" href="#">Some action</a class="text-primary"></li>
+                                <li class="dropdown-item text-primary"><a class="text-primary" href="#">Some other action</a></li>
+                                <li class="dropdown-divider"></li>
+                                <li class="dropdown-submenu">
+                                  <a  class="dropdown-item text-primary" tabindex="-1" href="index.html">Hover me for more options</a>
+                                  <ul class="dropdown-menu">
+                                    <li class="dropdown-item text-primary"><a class="text-primary" tabindex="-1" href="#">Second level</a></li>
+                                    <li class="dropdown-submenu">
+                                      <a class="dropdown-item text-primary" href="#">Even More..</a>
+                                      <ul class="dropdown-menu">
+                                          <li class="dropdown-item text-primary"><a class="text-primary" href="#">3rd level</a></li>
+                                            <li class="dropdown-submenu"><a class="dropdown-item text-primary" href="#">another level</a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown-item text-primary"><a class="text-primary" href="#">4th level</a></li>
+                                                <li class="dropdown-item text-primary"><a class="text-primary" href="#">4th level</a></li>
+                                                <li class="dropdown-item text-primary"><a class="text-primary" href="#">4th level</a class="text-primary"></li>
+                                            </ul>
+                                          </li>
+                                            <li class="dropdown-item text-primary"><a class="text-primary" href="#">3rd level</a></li>
+                                      </ul>
+                                    </li>
+                                    <li class="dropdown-item"><a class="text-primary" href="#">Second level</a></li>
+                                    <li class="dropdown-item"><a class="text-primary" href="#">Second level</a></li>
+                                  </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Solutions And Services dropdown -->
+                        <li class="nav-item dropdown ">
+                            <!-- solutions and services dropdown toggle -->
+                            <a href="products-services.html"  class="nav-link text-primary" type="link" id="solutions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               Solutions and Services
                             </a>
-                            <div class="dropdown-menu text-primary" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item bold text-primary" href="products-services.html">Solutions and Services</a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item text-primary" href="products-services.html#consulting">Consulting</a>
-                              <a class="dropdown-item text-primary" href="products-services.html#digital-solutions">Digital Solutions</a>
-                              <a class="dropdown-item text-primary" href="products-services.html#cloud-services">Cloud Services</a>
-                              <a class="dropdown-item text-primary" href="products-services.html#devices">Devices</a>
-                            </div>
+                            <!-- solutions and services dropdown items -->
+                            <ul class="dropdown-menu multi-level text-primary mt-0" role="menu" aria-labelledby="dropdownMenu">
+
+                                <!-- consulting -->
+                                <li class="dropdown-submenu">
+                                    <!-- consulting dropdown toggle/link -->
+                                    <a  class="dropdown-item text-primary" tabindex="-1" href="products-services.html#consulting">Consulting</a>
+                                    <!-- consulting dropdown items -->
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item text-primary" href="products-services.html#strategy-and-oprations">Strategy and Operations</a>
+                                            <a class="dropdown-item text-primary" href="products-services.html#technology-consulting">Technology Consulting</a>
+                                            <a class="dropdown-item text-primary" href="products-services.html#project-management-services">Project Management Services</a>
+                                            <a class="dropdown-item text-primary" href="products-services.html#">To Add</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Digital Solutions -->
+                                <li class="dropdown-submenu">
+                                    <!-- digital solutions and services dropdown link/toggle -->
+                                    <a  class="dropdown-item text-primary" tabindex="-1" href="products-services.html#digital-solutions">Digital Solutions</a>
+                                    <!-- digital solutions dropdown items -->
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item text-primary" href="products-services.html#customer-relationship-management">Customer Relationship Management</a>
+                                            <a class="dropdown-item text-primary" href="products-services.html#electronic-content-management">Electronic Content Management</a>
+                                            <a class="dropdown-item text-primary" href="products-services.html#eprocurement">eProcurement</a>
+                                            <a class="dropdown-item text-primary" href="products-services.html#real-eastate-management-system">Real Estate Management System</a>
+                                            <a class="dropdown-item text-primary" href="products-services.html#custom-application-development">Custom Application Development</a>
+                                            <a class="dropdown-item text-primary" href="products-services.html#project-portfolio-management">Project Portfolio Management</a>
+                                            <a class="dropdown-item text-primary" href="products-services.html#enterprise-resource-planning">Enterprise Resource Planning</a>
+                                            <a class="dropdown-item text-primary" href="products-services.html#web-and-mobile-applications">Web and Mobile Apllications</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Cloud services -->
+                                <li class="dropdown-submenu">
+                                    <!-- cloud services dropdownlink/toggle -->
+                                    <a  class="dropdown-item text-primary" tabindex="-1" href="products-services.html#cloud-services">Cloud Services</a>
+                                    <!-- cloud services dropdown items -->
+                                    <ul class="dropdown-menu">
+                                        <a class="dropdown-item text-primary" href="products-services.html#infrastructure-as-a-service">Infrastructure As A Sercvice</a>
+                                        <a class="dropdown-item text-primary" href="products-services.html#software-as-a-service">Software As A Service</a>
+                                    </ul>
+                                </li>
+
+                                <!-- Devices -->
+                                <li class="dropdown-submenu">
+                                    <!-- devices dropdownlink/toggle -->
+                                    <a  class="dropdown-item text-primary" tabindex="-1" href="products-services.html#devices">Devices</a>
+                                    <!-- devices dropdown items -->
+                                    <ul class="dropdown-menu">
+                                      <li class="dropdown-submenu">
+                                        <a class="dropdown-item text-primary" href="products-services.html#push-to-talk">Push To Talk</a>
+                                        <a class="dropdown-item text-primary" href="products-services.html#">To Add</a>
+
+                                      </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link text-primary" href="./industries.html">Industries</a></li>
+
+                        <!-- <li class="nav-item"><a class="nav-link text-primary" href="./industries.html">Industries</a></li> -->
+
+                         <!-- Industries dropdown -->
+                         <li class="nav-item dropdown ">
+                            <!-- solutions and services dropdown toggle -->
+                            <a href="industries.html"  class="nav-link text-primary" type="link" id="industries" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Industries
+                            </a>
+                            <!-- solutions and services dropdown items -->
+                            <ul class="dropdown-menu multi-level text-primary mt-0" role="menu" aria-labelledby="dropdownMenu">
+                                <li class="dropdown-item"><a class="text-primary" href="industries.html#banking">Banking Financial Services & Insurance</a></li>
+                                <li class="dropdown-item"><a class="text-primary" href="industries.html#retail">Retail, Consumer Packaged Goods, Transportation</a class="text-primary"></li>
+                                <li class="dropdown-item"><a class="text-primary" href="industries.html#government">Government Sector</a></li>
+                                <li class="dropdown-item"><a class="text-primary" href="industries.html#healthcare">Healthcare, Life Science & Services</a></li>
+                                <li class="dropdown-item"><a class="text-primary" href="industries.html#energy">Energy, Natural Resources Utilities and Engineering & Construction</a></li>
+                                <li class="dropdown-item"><a class="text-primary" href="industries.html#graphic">Graphic Design, Printing, Corporate Branding & Advertising</a></li>
+                            </ul>
+                        </li>
+
                         <li class="nav-item"><a class="nav-link text-primary" href="./contact-us.html">Contact Us</a></li>
                     </ul>
 
-                    <form class="bg-white search-form mb-3" method="get" id="searchform">
-                        <div class="input-group">
-                            <input class="field form-control" id="s" name="s" type="text" placeholder="Search">
-                            <span class="input-group-btn">
-                                <input class="submit btn btn-primary" id="searchsubmit" name="submit" type="submit"
-                                    value="Search">
-                            </span>
-                        </div>
-                    </form>
                 </div>
             </nav>
         </div>
     </header>
     <!-- Header End -->
+
+    <!-- test dropdown -->
+    <!-- <nav class="nav-bar container">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                  <li class="dropdown-item"><a href="#">Some action</a></li>
+                  <li class="dropdown-item"><a href="#">Some other action</a></li>
+                  <li class="dropdown-divider"></li>
+                  <li class="dropdown-submenu">
+                    <a  class="dropdown-item" tabindex="-1" href="#">Hover me for more options</a>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-item"><a tabindex="-1" href="#">Second level</a></li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item" href="#">Even More..</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="#">3rd level</a></li>
+                              <li class="dropdown-submenu"><a class="dropdown-item" href="#">another level</a>
+                              <ul class="dropdown-menu">
+                                  <li class="dropdown-item"><a href="#">4th level</a></li>
+                                  <li class="dropdown-item"><a href="#">4th level</a></li>
+                                  <li class="dropdown-item"><a href="#">4th level</a></li>
+                              </ul>
+                            </li>
+                              <li class="dropdown-item"><a href="#">3rd level</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-item"><a href="#">Second level</a></li>
+                      <li class="dropdown-item"><a href="#">Second level</a></li>
+                    </ul>
+                  </li>
+                </ul>
+          </li>
+      </ul>
+    </nav> -->
 
     <!-- Hero Start -->
     <section class="hero">
@@ -408,7 +525,7 @@
                     <!-- short about -->
                     <div class="col-lg-3">
                         <div class="single-widget contact-widget text-white">
-                            <img src="assets/images/logo.jpeg" alt="" class="" width="200" height="60">
+                            <img src="assets/images/qd logo - black.png" alt="" class="" width="200" height="60">
                             <p class="mt-3">
                                 Quality designs (QD) - a leading-edge software provider and IT services, to develop
                                 efficient and effective solutions that keep businesses one-step ahead. We offer strategy,
@@ -520,6 +637,7 @@
     <script src="assets/js/lightgallery-all.min.js"></script>
     <!--Template Script-->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>
