@@ -347,6 +347,7 @@ form button.btn-primary:hover {
 
 .services {
   padding: 80px 0 50px;
+  background-color: #e5dede;
 }
 
 .services .title {
@@ -369,7 +370,8 @@ form button.btn-primary:hover {
 ------------------------------------*/
 .featured {
   padding: 80px 0;
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
+  background-color: whitesmoke;
 }
 
 .featured p {
