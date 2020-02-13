@@ -12,6 +12,13 @@ a.text-primary:hover, a.text-primary:focus{
 }
 /* nav */
 
+/* map */
+.map{
+  height: 45vh;
+  width: 100%;
+}
+/* map */
+
 
 .list-group-flush:last-child .list-group-item:last-child{
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);

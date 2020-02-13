@@ -873,8 +873,9 @@ span {
 .subscribe-widget input {
   font-size: 14px;
   padding: 0px 10px;
-  background-color: #444;
-  border: none;
+  /* background-color: #444; */
+  border-bottom: solid 1px #4D4D55;
+  color: #4D4D55;
   line-height: 0;
   position: relative;
   z-index: 1;
@@ -948,8 +949,19 @@ span {
 }
 
 .form-control:focus{
-  background-color: #444;
+  color: #444;
+  border: none;
+  border-bottom: solid 1px #4D4D55;
+  box-shadow: none;
 }
+
+.textarea{
+  border-bottom: solid 1px #4D4D55;
+}
+
+/* .textarea:focus{
+  border-bottom: solid 1px #4D4D55;
+} */
 
 @media (max-width: 768px) {
   .sm-hide{
