@@ -676,7 +676,7 @@ form button.btn-primary:hover {
 .testimonials {
   padding: 95px 0 85px;
   color: #FF9D00;
-  border-bottom: 1px solid #26264b;
+  /* border-bottom: 1px solid #26264b; */
 }
 
 .testimonials .test-img {
