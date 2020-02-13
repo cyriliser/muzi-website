@@ -79,3 +79,8 @@
 .strip{
   border-top: solid 1.5em #4D4D55;
 }
+
+/* smaller hero */
+.hero-sm{
+  height: 50vh;
+}
