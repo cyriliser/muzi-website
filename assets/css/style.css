@@ -164,11 +164,39 @@ form button.btn-primary:hover {
     1 - Hero
 ------------------------------------*/
 .hero {
-  background: url("../images/hero-bg.jpg") no-repeat center;
+  /* background: url("../images/hero-bg.jpg") no-repeat center; */
+  /* background: url("../images/heros/home-slider-new-3.jpg") no-repeat center; */
+  /* background: url("../images/heros/home\ page.jpg") no-repeat center; */
+  background: url("../images/heros/home\ page\ product.jpg") no-repeat center;
+  /* background: url("../images/heros/home\ page\ product\ and\ service.png") no-repeat center; */
+  /* background: url("../images/heros/homepag.jpg") no-repeat center; */
   background-size: cover;
   overflow: hidden;
   position: relative;
   z-index: 0;
+}
+
+.about-hero{
+  /* background: url("../images/heros/about.jpg") no-repeat center; */
+  /* background: url("../images/heros/about-us-1.jpg") no-repeat center; */
+  background: url("../images/heros/13.jpg") no-repeat top;
+  /* background: url("../images/heros/about\ us.jpg") no-repeat center; */
+}
+
+.vecancies-hero{
+  background: url("../images/heros/10.jpg") no-repeat center;
+}
+
+.product-hero{
+  background: url("../images/heros/11.jpg") no-repeat center;
+}
+
+.industry-hero{
+  background: url("../images/heros/3.jpg") no-repeat center;
+}
+
+.contact-hero{
+  background: url("../images/heros/19.jpg") no-repeat top;
 }
 
 .hero .container {
@@ -492,7 +520,8 @@ form button.btn-primary:hover {
 ------------------------------------*/
 .trust {
   padding: 75px 0;
-  background-color: #26264b;
+  /* background-color: #26264b; */
+  background-color: #4D4D55;
   color: #ddd;
   position: relative;
 }

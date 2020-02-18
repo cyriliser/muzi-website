@@ -6,7 +6,7 @@
 
 .card {
 	/* width: 880px; */
-	height: 655px;
+	height: 450px;
     margin: 20px auto;
     background: #283445;
 	display: flex;
@@ -95,7 +95,8 @@ background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, F
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
 }
-.info-content .user h1{
+.info-content .user h1,
+.info-content .user h3{
 	font-size: 50px;
   background: -webkit-linear-gradient(#DA4453, #89216B);
   -webkit-background-clip: text;
