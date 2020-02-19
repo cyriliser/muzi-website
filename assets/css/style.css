@@ -181,22 +181,36 @@ form button.btn-primary:hover {
   /* background: url("../images/heros/about-us-1.jpg") no-repeat center; */
   background: url("../images/heros/13.jpg") no-repeat top;
   /* background: url("../images/heros/about\ us.jpg") no-repeat center; */
+  filter: grayscale();
 }
 
 .vecancies-hero{
   background: url("../images/heros/10.jpg") no-repeat center;
+  filter: grayscale();
+
 }
 
 .product-hero{
-  background: url("../images/heros/11.jpg") no-repeat center;
+  /* background: url("../images/heros/11.jpg") no-repeat center; */
+  /* background: url("../images/heros/new/product.jpg") no-repeat center; */
+  background: url("../images/heros/new/Product\ and\ service.jpg") no-repeat center;
+  background-size: cover;
+  filter: grayscale();
+
 }
 
 .industry-hero{
-  background: url("../images/heros/3.jpg") no-repeat center;
+  /* background: url("../images/heros/new/industry.jpg") no-repeat center; */
+  background: url("../images/heros/new/industryy.jpg") no-repeat center;
+  background-size: cover;
+  filter: grayscale();
+
 }
 
 .contact-hero{
   background: url("../images/heros/19.jpg") no-repeat top;
+  filter: grayscale();
+
 }
 
 .hero .container {
@@ -227,7 +241,7 @@ form button.btn-primary:hover {
   -webkit-transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
           transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
   padding: 35px 0 35px 30px;
-  background-color: rgba(255,157,0,0.6);
+  /* background-color: rgba(255,157,0,0.6); */
   /* background-color: rgba(255,157,0,0.6); */
   border-top-right-radius: 100px;
   border-bottom-left-radius: 10px;
@@ -244,6 +258,7 @@ form button.btn-primary:hover {
 
 .hero .arr-left,
 .hero .arr-right {
+  /* display: none !important; */
   font-size: 3rem;
   display: block;
   color: #fff;
@@ -257,6 +272,7 @@ form button.btn-primary:hover {
 
 .hero .arr-left:hover,
 .hero .arr-right:hover {
+  /* display: block !important; */
   cursor: pointer;
 }
 
