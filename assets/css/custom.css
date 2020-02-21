@@ -6,6 +6,18 @@ body{
 }
 /* font end */
 
+/* light open sans */
+.light-sans{
+  font-family: 'Open Sans Light' !important;
+  color: #26264b;
+}
+
+/* bg */
+.bg-grey{
+  background-color: #e6e6e6;
+}
+/* bg */
+
 /* nav */
 a.text-primary:hover, a.text-primary:focus{
   color: #4D4D55 !important;
@@ -18,6 +30,12 @@ a.text-primary:hover, a.text-primary:focus{
   width: 100%;
 }
 /* map */
+
+/* services cards */
+#consulting .card{
+  border: none;
+}
+/* services cards */
 
 
 .list-group-flush:last-child .list-group-item:last-child{
@@ -105,3 +123,12 @@ a.text-primary:hover, a.text-primary:focus{
 .hero-sm{
   height: 50vh;
 }
+
+
+/* list group */
+.list-group-item,
+.list-group-flush:last-child .list-group-item:last-child{
+  border: none;
+  border-bottom: solid 1px #e6e6e6;
+}
+/* list group */
