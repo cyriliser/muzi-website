@@ -211,7 +211,7 @@ form button.btn-primary:hover {
 .contact-hero{
   background: url("../images/heros/19.jpg") no-repeat top;
   filter: grayscale();
-
+  height: 30vh !important;
 }
 
 .hero .container {
