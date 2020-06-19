@@ -10,14 +10,14 @@
     margin: 20px auto;
     background: #283445;
 	display: flex;
-	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	/* box-shadow: 0 0 10px rgba(0,0,0,0.2); */
 	flex-direction: row;
 	border-radius: 20px;
 	border: none;
 }
 
 .img-content {
-	width: 50%;
+	width: 30%;
 	height: 100%;
 	background: #000;
 	position: relative; 
@@ -85,14 +85,17 @@ background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, F
 
 .img-content img {
 	width: 100%;
-	height: 100%;
-	border-top-left-radius: 20px;
-	border-bottom-left-radius: 20px;
+	height: 80%;
+
+	/* border-top-left-radius: 20px; */
+	/* border-bottom-left-radius: 20px; */
 }
 .info-content {
-	width: 50%;
+	width: 70%;
 	height: 100%;
-	background: #283445;
+	/* background: #283445; */
+	background: #19232e;
+	
 	/* border-top-right-radius: 20px; */
 	/* border-bottom-right-radius: 20px; */
 }
