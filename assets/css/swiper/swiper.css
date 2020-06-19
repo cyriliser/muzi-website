@@ -53,6 +53,14 @@
   transition-property: transform, -webkit-transform;
 }
 
+.swiper-slide{
+   margin-left: 2rem;
+   margin-right: 2rem;
+
+   /* padding-left: 3rem;
+   padding-right: 3rem; */
+}
+
 .swiper-slide-invisible-blank {
   visibility: hidden;
 }

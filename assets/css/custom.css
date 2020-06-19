@@ -141,6 +141,10 @@ a.text-primary:hover, a.text-primary:focus{
   height: 50vh;
 }
 
+.home-hero{
+  height: 76vh;
+}
+
 
 /* list group */
 .list-group-item,
@@ -149,3 +153,7 @@ a.text-primary:hover, a.text-primary:focus{
   border-bottom: solid 1px #e6e6e6;
 }
 /* list group */
+
+.dark-grey{
+  color: #333 !important;
+}
