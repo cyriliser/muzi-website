@@ -157,3 +157,20 @@ a.text-primary:hover, a.text-primary:focus{
 .dark-grey{
   color: #333 !important;
 }
+
+button.btn-primary:hover{
+  background-color: #FF9D00 !important;
+  color: #FF9D00 !important;
+}
+
+.btn::after{
+  background-color: #444;
+}
+
+.form-control{
+  border: none;
+}
+
+.textarea{
+  /* border-bottom: 1px #4D4D55 !important; */
+}

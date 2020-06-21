@@ -214,7 +214,8 @@ form button.btn-primary:hover {
   /* background: url("../images/heros/19.jpg") no-repeat top; */
   background: url("../images/heros/contact.png") no-repeat top;
   filter: grayscale();
-  height: 30vh !important;
+  /* height: 30vh !important; */
+  display: none;
 }
 
 .hero .container {
@@ -1014,7 +1015,7 @@ span {
 
 .textarea{
   height: 92px !important;
-  border-bottom: solid 1px #4D4D55;
+  border-bottom: solid 1px #4D4D55 !important;
 }
 
 /* .textarea:focus{
