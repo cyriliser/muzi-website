@@ -21,6 +21,9 @@ body{
 .bg-orange{
   background-color: #FF9D00;
 }
+.bg-l-orange{
+  background-color:#FF9D00;;
+}
 .bg-blue{
   background-color: #19232e !important;
   /* background-color: #283445; */
