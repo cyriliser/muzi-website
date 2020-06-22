@@ -38,8 +38,8 @@
 
 .img-content .bottom-box{
 	width: 100%;
-	height: 125px;
-	bottom: 124px;
+	height: 100%;
+	bottom: 85px;
 	z-index: 1;
 	position: relative;
 	background: #8A2387;  /* fallback for old browsers */

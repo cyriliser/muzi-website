@@ -21,7 +21,7 @@ body{
   background-color: #FF9D00;
 }
 .bg-blue{
-  background-color: #19232e;
+  background-color: #19232e !important;
   /* background-color: #283445; */
 }
 /* bg */
@@ -171,6 +171,3 @@ button.btn-primary:hover{
   border: none;
 }
 
-.textarea{
-  /* border-bottom: 1px #4D4D55 !important; */
-}
