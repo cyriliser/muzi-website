@@ -10,6 +10,7 @@ body{
 .light-sans{
   font-family: 'Open Sans Light' !important;
   color: #26264b;
+  font-weight: initial;
 }
 
 
