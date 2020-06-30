@@ -175,3 +175,15 @@ button.btn-primary:hover{
   border: none;
 }
 
+/* Products page */
+.products-3rd{
+  width: 100%;
+  height: 100%;
+}
+/* Products page */
+
+/* industry page */
+.industry h5{
+  font-size: 2rem;
+}
+/* industry page */

@@ -188,9 +188,10 @@ form button.btn-primary:hover {
 }
 
 .vecancies-hero{
-  background: url("../images/heros/10.jpg") no-repeat center;
+  background: url("../images/heros/erere.png") no-repeat center;
   filter: grayscale();
-
+  /* background-size: initial !important; */
+  /* height: 30vh !important; */
 }
 
 .product-hero{
@@ -212,10 +213,10 @@ form button.btn-primary:hover {
 
 .contact-hero{
   /* background: url("../images/heros/19.jpg") no-repeat top; */
-  background: url("../images/heros/contact.png") no-repeat top;
+  background: url("../images/heros/Contact\ us.png") no-repeat top;
   filter: grayscale();
   /* height: 30vh !important; */
-  display: none;
+  /* display: none; */
 }
 
 .hero .container {
