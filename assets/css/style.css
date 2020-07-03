@@ -213,9 +213,11 @@ form button.btn-primary:hover {
 
 .contact-hero{
   /* background: url("../images/heros/19.jpg") no-repeat top; */
-  background: url("../images/heros/Contact\ us.png") no-repeat top;
+  /* background: url("../images/heros/Contact\ us.png") no-repeat top; */
+  background: url("../images/heros/erere.png") no-repeat;
+  background-position: top;
   filter: grayscale();
-  /* height: 30vh !important; */
+  height: 20vh !important;
   /* display: none; */
 }
 
