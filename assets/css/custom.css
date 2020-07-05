@@ -212,6 +212,13 @@ button.btn-primary:hover{
 }
 /* industry page */
 
+/* IT / Consulting page */
+.consulting-page .header div img{
+  width: 100%;
+  height: 100%;
+}
+/* IT / Consulting page */
+
 .hide{
   display: none !important;
 }
