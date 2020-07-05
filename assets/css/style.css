@@ -388,15 +388,15 @@ form button.btn-primary:hover {
 }
 
 .title .title-orange {
-  color: #FF9D00;
+  color: #FF9D00 !important;
 }
 
 .title .title-l-orange {
-  color: #F0640C;
+  color: #F0640C !important;
 }
 
 .title-l-orange {
-  color: #F0640C;
+  color: #F0640C !important;
 }
 
 .services {
