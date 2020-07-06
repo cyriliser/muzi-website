@@ -226,3 +226,10 @@ button.btn-primary:hover{
 .no-border{
   border-bottom: unset !important;
 }
+
+.square-btn{
+  border-radius: unset !important;
+}
+.square-btn::after{
+  border-radius: unset !important;
+}
