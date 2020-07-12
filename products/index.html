@@ -133,24 +133,8 @@
                             </ul>
                         </li>
 
-                         <!-- Industries dropdown -->
-                         <li class="nav-item dropdown ">
-                            <!-- solutions and services dropdown toggle -->
-                            <a href="../industries.html"  class="nav-link text-primary" type="link" id="industries" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Industries
-                            </a>
-                            <!-- solutions and services dropdown items -->
-                            <ul class="dropdown-menu multi-level text-primary mt-0" role="menu" aria-labelledby="dropdownMenu">
-                                <li class="dropdown-item"><a class="text-primary" href="../industries.html#banking">Financial Services</a></li>
-                                <li class="dropdown-item"><a class="text-primary" href="../industries.html#retail">Retail & Customers</a class="text-primary"></li>
-                                <li class="dropdown-item"><a class="text-primary" href="../industries.html#manufacturing">Manufacturing</a></li>
-                                <li class="dropdown-item"><a class="text-primary" href="../industries.html#government">Public Sector</a></li>
-                                <li class="dropdown-item"><a class="text-primary" href="../industries.html#healthcare">Healthcare</a></li>
-                                <li class="dropdown-item"><a class="text-primary" href="../industries.html#education">Education</a></li>
-                                <li class="dropdown-item"><a class="text-primary" href="../industries.html#energy">Transportation</a></li>
-                                <li class="dropdown-item"><a class="text-primary" href="../industries.html#media">Media & Communications</a></li>
-                            </ul>
-                        </li>
+                        <li class="nav-item"><a class="nav-link text-primary" href="../industries.html">Industries</a></li>
+
 
                         <li class="nav-item"><a class="nav-link text-primary" href="../contact-us.html">Contact Us</a></li>
                     </ul>
@@ -208,16 +192,25 @@
     <section class="page-content py-2">
 
         <!-- header text -->
-        <div class="border-bottom border-secondary py-3 title title-orange">
-            <h3 class="title title-orange text-center">
-                We have a wide array of services to offer our clients. <br>
-                But we can generally categorise them into three general categories
-            </h3>
+        <div class="border-bottom border-secondary py-3 text-center">
+
+            <div class="title title-orange">
+                <h3 class="title title-orange text-center">
+                    We have a wide array of services to offer our clients. <br>
+                    But we can generally categorise them into three general categories
+                </h3>
+            </div>
+
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore facilis autem similique tenetur saepe ex. Laborum perspiciatis magni dignissimos vitae!
+            </p>
         </div>
 
-        <div class="services-page container px-0 text-center">
+
+
+        <!-- <div class="services-page container px-0 text-center"> -->
             <!-- digital services -->
-            <div class="digital-services">
+            <div class="digital-services container text-center">
                 <h2 class="title text-primary"><a href="./digital.html">Digital Services</a></h2>
                 <p>
                     Effectively manage IT governance and risk while also ensuring business and regulatory compliance. <br>
@@ -372,66 +365,68 @@
             </div>
 
             <!-- Cloud Services -->
-            <div class="cloud-services my-4 pt-4 row bg-grey px-0">
-                <div class="col-lg-12 text-center">
-                    <h2 class="title text-primary"><a href="./cloud_services.html">Cloud Services</a></h2>
-                    <p>
-                        cloud services helps companies transform into a digital business by provideing computing resources over the internet
-                    </p>
-                </div>
-
-                <!-- line -->
-                <div class="col-lg-12 border-top border-bottom border-secondary "></div>
-
-                <!-- services -->
-                <div class="row px-3 ">
-                    <!-- Software as a Service -->
-                    <div class="service col-lg-4 mt-3 mb-4">
-                        <div class="d-flex ">
-                            <img src="../assets/images/services icons/Cloud Services/Software aas.png" alt="">
-                            <h6 class="my-auto pl-3 text-dark text-left"> Software as a Service</h6>
-                        </div>
-
-                        <p class="text-left">
-                            Quality Designs delivers a number of solutions through a SaaS model to help you unlock the value of your investments.
+            <div class="cloud-services container-fluid text-center my-4 pt-4  bg-grey px-0">
+                <div class="row container mx-auto">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="title text-primary"><a href="./cloud_services.html">Cloud Services</a></h2>
+                        <p>
+                            cloud services helps companies transform into a digital business by provideing computing resources over the internet
                         </p>
-
-                        <a href="./cloud-saas.html">Read More</a>
                     </div>
 
-                    <!-- Platform as a Service -->
-                    <div class="service col-lg-4 mt-3 mb-4">
-                        <div class="d-flex ">
-                            <img src="../assets/images/services icons/Cloud Services/Platform aas.png" alt="">
-                            <h6 class="my-auto pl-3 text-dark text-left">Platform as a Service</h6>
+                    <!-- line -->
+                    <div class="col-lg-12 border-top border-bottom border-secondary "></div>
+
+                    <!-- services -->
+                    <div class="row px-3 ">
+                        <!-- Software as a Service -->
+                        <div class="service col-lg-4 mt-3 mb-4">
+                            <div class="d-flex ">
+                                <img src="../assets/images/services icons/Cloud Services/Software aas.png" alt="">
+                                <h6 class="my-auto pl-3 text-dark text-left"> Software as a Service</h6>
+                            </div>
+
+                            <p class="text-left">
+                                Quality Designs delivers a number of solutions through a SaaS model to help you unlock the value of your investments.
+                            </p>
+
+                            <a href="./cloud-saas.html">Read More</a>
                         </div>
 
-                        <p class="text-left">
-                            Quality Designs provides a platform for building software deliverd over the web
-                        </p>
+                        <!-- Platform as a Service -->
+                        <div class="service col-lg-4 mt-3 mb-4">
+                            <div class="d-flex ">
+                                <img src="../assets/images/services icons/Cloud Services/Platform aas.png" alt="">
+                                <h6 class="my-auto pl-3 text-dark text-left">Platform as a Service</h6>
+                            </div>
 
-                        <a href="./cloud-paas.html">Read More</a>
-                    </div>
+                            <p class="text-left">
+                                Quality Designs provides a platform for building software deliverd over the web
+                            </p>
 
-                    <!-- Infrastructure as a Service -->
-                    <div class="service col-lg-4 mt-3 mb-4">
-                        <div class="d-flex ">
-                            <img src="../assets/images/services icons/Cloud Services/Infrastructure aas.png" alt="">
-                            <h6 class="my-auto pl-3 text-dark text-left">Infrastructure as a Service</h6>
+                            <a href="./cloud-paas.html">Read More</a>
                         </div>
 
-                        <p class="text-left">
-                            Quality Designs delivery model for cloud services where customers purchace access to managed IT infrastructure over the internet. 
-                        </p>
+                        <!-- Infrastructure as a Service -->
+                        <div class="service col-lg-4 mt-3 mb-4">
+                            <div class="d-flex ">
+                                <img src="../assets/images/services icons/Cloud Services/Infrastructure aas.png" alt="">
+                                <h6 class="my-auto pl-3 text-dark text-left">Infrastructure as a Service</h6>
+                            </div>
 
-                        <a href="./cloud-iaas.html">Read More</a>
+                            <p class="text-left">
+                                Quality Designs delivery model for cloud services where customers purchace access to managed IT infrastructure over the internet. 
+                            </p>
+
+                            <a href="./cloud-iaas.html">Read More</a>
+                        </div>
+
                     </div>
-
                 </div>
             </div>
 
             <!-- consulting  -->
-            <div class="consulting py-4">
+            <div class="consulting py-4 container text-center">
                 <h2 class="title text-primary"><a href="./consulting.html">Consulting</a></h2>
                 <p>
                     Effectively manage IT governance and risk while also ensuring business and regulatory compliance. <br>
@@ -535,7 +530,7 @@
                 </div>
                 
             </div>
-        </div>
+        <!-- </div> -->
 
 
 

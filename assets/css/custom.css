@@ -144,6 +144,12 @@ a.text-primary:hover, a.text-primary:focus{
 .hero-sm{
   height: 50vh;
 }
+.hero-xsm{
+  height: 33vh;
+}
+.hero-xsm h1{
+    margin-bottom: 15rem !important;
+}
 
 .home-hero{
   height: 76vh;
@@ -242,5 +248,12 @@ button.btn-primary:hover{
 .home-service-icon{
   /* width: 100%;
   height: 100%; */
+}
+
+.social-color{
+  background-color: #19232E !important;
+}
+.subscribe-widget .social-nav a{
+  background-color: #19232E;
 }
 /* home */

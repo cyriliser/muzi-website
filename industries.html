@@ -130,25 +130,8 @@
 
                             </ul>
                         </li>
-
-                         <!-- Industries dropdown -->
-                         <li class="nav-item dropdown ">
-                            <!-- solutions and services dropdown toggle -->
-                            <a href="industries.html"  class="nav-link text-primary" type="link" id="industries" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Industries
-                            </a>
-                            <!-- solutions and services dropdown items -->
-                            <ul class="dropdown-menu multi-level text-primary mt-0" role="menu" aria-labelledby="dropdownMenu">
-                                <li class="dropdown-item"><a class="text-primary" href="#banking">Financial Services</a></li>
-                                <li class="dropdown-item"><a class="text-primary" href="#retail">Retail & Customers</a class="text-primary"></li>
-                                <li class="dropdown-item"><a class="text-primary" href="#manufacturing">Manufacturing</a></li>
-                                <li class="dropdown-item"><a class="text-primary" href="#government">Public Sector</a></li>
-                                <li class="dropdown-item"><a class="text-primary" href="#healthcare">Healthcare</a></li>
-                                <li class="dropdown-item"><a class="text-primary" href="#education">Education</a></li>
-                                <li class="dropdown-item"><a class="text-primary" href="#energy">Transportation</a></li>
-                                <li class="dropdown-item"><a class="text-primary" href="#media">Media & Communications</a></li>
-                            </ul>
-                        </li>
+                        
+                        <li class="nav-item"><a class="nav-link text-primary" href="./industries.html">Industries</a></li>
 
                         <li class="nav-item"><a class="nav-link text-primary" href="./contact-us.html">Contact Us</a></li>
                     </ul>
@@ -216,7 +199,7 @@
             <!-- Financial Services -->
             <div id="banking" class="industry my-3 col-lg-6 row">
                 <div class="title col-12">
-                    <h4><span class="light-sans dark-grey">Financial</span> Services</h4>
+                    <h4>Financial Services</h4>
                 </div>
 
                  <div class="industry-img pl-3 col-lg-4 ">
@@ -226,7 +209,26 @@
                  <div class="industry-info py-3 bg-grey col-lg-8 text-center">
                      <img src="./assets/images/INDUSTRIES/financial services .png" alt="">
                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum odit soluta excepturi dolores nihil.</p>
-                    <a href="#">Read More</a>    
+                    <a href="#"  data-toggle="modal" data-target="#banking-modal">Read More </a>    
+                </div>
+
+                <div class="modal fade" id="banking-modal" tabindex="-1" role="dialog" aria-labelledby="banking-modal" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Financial Services</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                             Financial services modal
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-sm square-btn" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
                 </div>
 
             </div>
@@ -234,7 +236,7 @@
             <!-- Retail And Consuters -->
             <div id="retail" class="industry my-3 col-lg-6 row">
                 <div class="title col-12">
-                    <h4><span class="light-sans dark-grey">Retail and</span> Consumers</h4>
+                    <h4>Retail and Consumers</h4>
                 </div>
 
                  <div class="industry-img pl-3 col-lg-4 ">
@@ -244,16 +246,35 @@
                  <div class="industry-info py-3 bg-grey col-lg-8 text-center">
                      <img src="./assets/images/INDUSTRIES/retail & customers.png"  alt="">
                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum odit soluta excepturi dolores nihil.</p>
-                    <a href="#">Read More</a>    
+                    <a href="#"   data-toggle="modal" data-target="#retail-modal">Read More</a>    
                 </div>
 
+
+                <div class="modal fade" id="retail-modal" tabindex="-1" role="dialog" aria-labelledby="retail-modal" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Retail and Consumers</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                                Retail Modal
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-sm square-btn" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
             </div>
 
             
             <!-- Manufacturing -->
             <div id="manufacturing" class="industry my-3 col-lg-6 row">
                 <div class="title col-12">
-                    <h4><span class="light-sans dark-grey">Manufacturing</span></h4>
+                    <h4>Manufacturing</h4>
                 </div>
 
                  <div class="industry-img pl-3 col-lg-4 ">
@@ -263,15 +284,34 @@
                  <div class="industry-info py-3 bg-grey col-lg-8 text-center">
                      <img src="./assets/images/INDUSTRIES/manufacturing.png"  alt="">
                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum odit soluta excepturi dolores nihil.</p>
-                    <a href="#">Read More</a>    
+                    <a href="#"   data-toggle="modal" data-target="#manufacturing-modal">Read More</a>    
                 </div>
 
+
+                <div class="modal fade" id="manufacturing-modal" tabindex="-1" role="dialog" aria-labelledby="manufacturing-modal" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Manufacturing</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            Manufacturing Modal
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-sm square-btn" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
             </div>
 
             <!-- Public Sector -->
             <div id="government" class="industry my-3 col-lg-6 row">
                 <div class="title col-12">
-                    <h4><span class="light-sans dark-grey">Public</span> Sector</h4>
+                    <h4>Public Sector</h4>
                 </div>
 
                  <div class="industry-img pl-3 col-lg-4 ">
@@ -281,16 +321,35 @@
                  <div class="industry-info py-3 bg-grey col-lg-8 text-center">
                      <img src="./assets/images/INDUSTRIES/government sector.png"  alt="">
                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum odit soluta excepturi dolores nihil.</p>
-                    <a href="#">Read More</a>    
+                    <a href="#"   data-toggle="modal" data-target="#public-modal">Read More</a>    
                 </div>
 
+
+                <div class="modal fade" id="public-modal" tabindex="-1" role="dialog" aria-labelledby="public-modal" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Public Sector</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            public secotor modal
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-sm square-btn" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
             </div>
 
             
             <!-- HealthCare -->
             <div id="healthcare" class="industry my-3 col-lg-6 row">
                 <div class="title col-12">
-                    <h4><span class="light-sans dark-grey"></span> Healthcare</h4>
+                    <h4> Healthcare</h4>
                 </div>
 
                  <div class="industry-img pl-3 col-lg-4 ">
@@ -300,15 +359,34 @@
                  <div class="industry-info py-3 bg-grey col-lg-8 text-center">
                      <img src="./assets/images/INDUSTRIES/healthcare.png"  alt="">
                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum odit soluta excepturi dolores nihil.</p>
-                    <a href="#">Read More</a>    
+                    <a href="#"   data-toggle="modal" data-target="#healthcare-modal">Read More</a>    
                 </div>
 
+
+                <div class="modal fade" id="healthcare-modal" tabindex="-1" role="dialog" aria-labelledby="healthcare-modal" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Healthcare</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                             healthcare modal
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-sm square-btn" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
             </div>
 
             <!-- Education -->
             <div id="education" class="industry my-3 col-lg-6 row">
                 <div class="title col-12">
-                    <h4><span class="light-sans dark-grey">Education</span></h4>
+                    <h4>Education</h4>
                 </div>
 
                  <div class="industry-img pl-3 col-lg-4 ">
@@ -318,16 +396,35 @@
                  <div class="industry-info py-3 bg-grey col-lg-8 text-center">
                      <img src="./assets/images/INDUSTRIES/education.png"  alt="">
                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum odit soluta excepturi dolores nihil.</p>
-                    <a href="#">Read More</a>    
+                    <a href="#"   data-toggle="modal" data-target="#education-modal">Read More</a>    
                 </div>
 
+
+                <div class="modal fade" id="education-modal" tabindex="-1" role="dialog" aria-labelledby="education-modal" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Education</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            education modal
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-sm square-btn" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
             </div>
 
             
             <!-- Transportation -->
             <div id="energy" class="industry my-3 col-lg-6 row">
                 <div class="title col-12">
-                    <h4><span class="light-sans dark-grey">Transportation</span></h4>
+                    <h4>Transportation</h4>
                 </div>
 
                  <div class="industry-img pl-3 col-lg-4 ">
@@ -337,15 +434,34 @@
                  <div class="industry-info py-3 bg-grey col-lg-8 text-center">
                      <img src="./assets/images/INDUSTRIES/Transportation.png"  alt="">
                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum odit soluta excepturi dolores nihil.</p>
-                    <a href="#">Read More</a>    
+                    <a href="#"   data-toggle="modal" data-target="#transportation-modal">Read More</a>    
                 </div>
 
+
+                <div class="modal fade" id="transportation-modal" tabindex="-1" role="dialog" aria-labelledby="transportation-modal" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Transportation</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                              Transportation modal
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-sm square-btn" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
             </div>
 
             <!-- Media -->
             <div id="media" class="industry my-3 col-lg-6 row">
                 <div class="title col-12">
-                    <h4><span class="light-sans dark-grey"></span>Media</h4>
+                    <h4>Media</h4>
                 </div>
 
                  <div class="industry-img pl-3 col-lg-4 ">
@@ -355,9 +471,28 @@
                  <div class="industry-info py-3 bg-grey col-lg-8 text-center">
                      <img src="./assets/images/INDUSTRIES/media .png"  alt="">
                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum odit soluta excepturi dolores nihil.</p>
-                    <a href="#">Read More</a>    
+                    <a href="#"   data-toggle="modal" data-target="#media-modal">Read More</a>    
                 </div>
 
+
+                <div class="modal fade" id="media-modal" tabindex="-1" role="dialog" aria-labelledby="media-modal" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Media</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            Media Modal
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-sm square-btn" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
             </div>
 
 

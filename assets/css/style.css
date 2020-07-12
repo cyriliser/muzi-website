@@ -221,6 +221,10 @@ form button.btn-primary:hover {
   /* display: none; */
 }
 
+.contact-hero h1{
+  padding-bottom: 10rem !important;
+}
+
 .hero .container {
   position: relative;
   z-index: 5;
@@ -388,6 +392,10 @@ form button.btn-primary:hover {
 }
 
 .title .title-orange {
+  color: #FF9D00 !important;
+}
+
+.title-orange {
   color: #FF9D00 !important;
 }
 
