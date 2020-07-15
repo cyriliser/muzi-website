@@ -272,3 +272,7 @@ button.btn-primary:hover{
 }
 
 /* .icon */
+
+.bg-red{
+  background-color: #ee1515;
+}
