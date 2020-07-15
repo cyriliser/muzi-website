@@ -207,9 +207,14 @@ button.btn-primary:hover{
   height: 100%;
 }
 
+.industry-info p {
+  color: #19232E;
+}
+
 .industry-strip{
   /* background-color: #26264b; */
-  background-color: #333 !important;
+  /* background-color: #333 !important; */
+  background-color: #19232E !important;
 }
 
 .industry-strip .btn,
@@ -242,12 +247,16 @@ button.btn-primary:hover{
 
 /* home */
 .home-service-icon-container{
-  /* width: 50%;
-  height: 50%; */
+  width: 50px;
+  height: 50px;
+}
+.home-service-icon-container img{
+  /* object-fit: contain; */
+  width: inherit;
+  height: inherit;
 }
 .home-service-icon{
-  /* width: 100%;
-  height: 100%; */
+  object-fit: contain;
 }
 
 .social-color{
@@ -257,3 +266,9 @@ button.btn-primary:hover{
   background-color: #19232E;
 }
 /* home */
+
+.icon{
+
+}
+
+/* .icon */

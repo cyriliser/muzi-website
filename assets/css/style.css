@@ -384,7 +384,8 @@ form button.btn-primary:hover {
 }
 
 .title .title-blue {
-  color: #26264b;
+  /* color: #26264b; */
+  color: #19232E;
 }
 
 .title .title-primary {
