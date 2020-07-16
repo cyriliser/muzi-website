@@ -53,9 +53,15 @@
   transition-property: transform, -webkit-transform;
 }
 
+.home-hero-swiper-slide{
+  padding-bottom: 10rem;
+}
+
+
 .swiper-slide{
-   margin-left: 2rem;
-   margin-right: 2rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   /* margin-bottom: 6rem; */
 
    /* padding-left: 3rem;
    padding-right: 3rem; */

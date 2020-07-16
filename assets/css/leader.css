@@ -21,6 +21,8 @@
 	height: 100%;
 	background: #000;
 	position: relative; 
+	border: 6px solid white;
+	
 	/* border-top-left-radius: 20px; */
 	/* border-bottom-left-radius: 20px; */
 }
@@ -39,7 +41,7 @@
 .img-content .bottom-box{
 	width: 100%;
 	height: 100%;
-	bottom: 70px;
+	/* bottom: 59px; */
 	z-index: 1;
 	position: relative;
 	background: #8A2387;  /* fallback for old browsers */
