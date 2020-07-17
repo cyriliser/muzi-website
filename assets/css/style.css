@@ -229,26 +229,32 @@ form button.btn-primary:hover {
 
 .governance-hero{
   background: url("../images/heros/IT_ADVISORY/GOVERNANCE\ .png") no-repeat;
+  background-size: cover;
 }
 
 .strategy-hero{
   background: url("../images/heros/IT_ADVISORY/STRATEGY.png") no-repeat;
+  background-size: cover;
 }
 
 .iot-hero{
   background: url("../images/heros/IT_ADVISORY/IOT\ .png") no-repeat;
+  background-size: cover;
 }
 
 .bigdata-hero{
   background: url("../images/heros/IT_ADVISORY/BIG\ DATA.png") no-repeat;
+  background-size: cover;
 }
 
 .program-hero{
   background: url("../images/heros/IT_ADVISORY/PROGRAM\ MANAGEMENT.png") no-repeat;
+  background-size: cover;
 }
 
 .ai-hero{
   background: url("../images/heros/IT_ADVISORY/ARTIFICIAL\ INTELLIGENCE.png") no-repeat;
+  background-size: cover;
 }
 
 .saas-hero{
