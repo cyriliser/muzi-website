@@ -225,11 +225,39 @@ form button.btn-primary:hover {
   padding-bottom: 13rem !important;
 }
 
+/* Services heros */
+
+.governance-hero{
+  background: url("../images/heros/IT_ADVISORY/GOVERNANCE\ .png") no-repeat;
+}
+
+.strategy-hero{
+  background: url("../images/heros/IT_ADVISORY/STRATEGY.png") no-repeat;
+}
+
+.iot-hero{
+  background: url("../images/heros/IT_ADVISORY/IOT\ .png") no-repeat;
+}
+
+.bigdata-hero{
+  background: url("../images/heros/IT_ADVISORY/BIG\ DATA.png") no-repeat;
+}
+
+.program-hero{
+  background: url("../images/heros/IT_ADVISORY/PROGRAM\ MANAGEMENT.png") no-repeat;
+}
+
+.ai-hero{
+  background: url("../images/heros/IT_ADVISORY/ARTIFICIAL\ INTELLIGENCE.png") no-repeat;
+}
+/* Services heros */
+
 .contact-hero .row div,
 .industry-hero .row div,
 .product-hero .row div,
 .vecancies-hero .row div,
-.about-hero .row div{
+.about-hero .row div,
+.left-title-hero .row div{
   margin-left: unset;
 }
 
