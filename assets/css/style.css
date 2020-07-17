@@ -45,7 +45,7 @@ header::after {
 }
 
 .nav-link {
-  font-family: "Rajdhani", sans-serif;
+  /* font-family: "Rajdhani", sans-serif; */
   text-transform: uppercase;
 }
 
