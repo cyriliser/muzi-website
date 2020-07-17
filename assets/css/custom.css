@@ -97,7 +97,7 @@ a.text-primary:hover, a.text-primary:focus{
 }
 
 .dropdown-submenu>a:after {
-  display: block;
+  display: none;
   content: " ";
   float: right;
   width: 0;
