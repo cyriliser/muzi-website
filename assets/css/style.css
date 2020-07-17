@@ -250,6 +250,22 @@ form button.btn-primary:hover {
 .ai-hero{
   background: url("../images/heros/IT_ADVISORY/ARTIFICIAL\ INTELLIGENCE.png") no-repeat;
 }
+
+.saas-hero{
+  background: url("../images/heros/CLOUD_SERVICES/SAAS.png") no-repeat;
+  background-size: cover;
+}
+
+.paas-hero{
+  background: url("../images/heros/CLOUD_SERVICES/PAAS.png") no-repeat;
+  background-size: cover;
+}
+
+.iaas-hero{
+  background: url("../images/heros/CLOUD_SERVICES/IAAS.png") no-repeat;
+  background-size: cover;
+}
+
 /* Services heros */
 
 .contact-hero .row div,
