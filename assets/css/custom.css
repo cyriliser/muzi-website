@@ -284,3 +284,16 @@ button.btn-primary:hover{
 .bg-red{
   background-color: #ee1515;
 }
+
+.caution{
+  background-image: url("../images/CAUTION\ ICON.png");
+  background-size: cover;
+}
+
+.categories li{
+  list-style: none;
+}
+.categories ul{
+  padding-left: unset;
+  margin-bottom: unset;
+}

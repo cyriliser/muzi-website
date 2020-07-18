@@ -188,7 +188,8 @@ form button.btn-primary:hover {
 }
 
 .vecancies-hero{
-  background: url("../images/heros/erere.png") no-repeat center;
+  background: url("../images/heros/Careers.png") no-repeat center;
+  background-size: cover;
   filter: grayscale();
   /* background-size: initial !important; */
   /* height: 30vh !important; */
