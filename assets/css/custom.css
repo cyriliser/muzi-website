@@ -217,6 +217,10 @@ button.btn-primary:hover{
   background-color: #19232E !important;
 }
 
+.industry-strip h4{
+  color: #FF9D00 !important;
+}
+
 .industry-strip .btn,
 .industry-strip .btn:after{
   border-radius: unset !important;
