@@ -123,7 +123,7 @@ background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, F
 	margin: 30px;
 }
 
-button {
+/* #message button {
 	left: 275px;
 	color: #3A5879;
 	width: 150px;
@@ -134,7 +134,7 @@ button {
 	border-radius: 100px;
 	background: #68E7CC;
 	box-shadow: 0 0 10px #68E7CC;
-}
+} */
 
 .online {
 	top: 457px;
