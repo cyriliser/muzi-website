@@ -278,6 +278,53 @@ form button.btn-primary:hover {
   background-size: cover;
 }
 
+.ecm-hero{
+  background: url("../images/heros/DIGITAL_SOLUTIONS/econtent\ management.png") no-repeat;
+  background-size: cover;
+}
+
+.erp-hero{
+  background: url("../images/heros/DIGITAL_SOLUTIONS/erp.png") no-repeat;
+  background-size: cover;
+}
+
+.payroll-hero{
+  background: url("../images/heros/DIGITAL_SOLUTIONS/payroll.png") no-repeat;
+  background-size: cover;
+}
+
+.ppm-hero{
+  background: url("../images/heros/DIGITAL_SOLUTIONS/project\ portfolio\ management.png") no-repeat;
+  background-size: cover;
+}
+
+.crm-hero{
+  background: url("../images/heros/DIGITAL_SOLUTIONS/customer\ relations.png") no-repeat;
+  background-size: cover;
+}
+
+.real-hero{
+  background: url("../images/heros/DIGITAL_SOLUTIONS/real\ estate.png") no-repeat;
+  background-size: cover;
+}
+
+.proc-hero{
+  background: url("../images/heros/DIGITAL_SOLUTIONS/eprocurement\ .png") no-repeat;
+  background-size: cover;
+}
+
+.custom-hero{
+  background: url("../images/heros/DIGITAL_SOLUTIONS/custom\ development.png") no-repeat;
+  background-size: cover;
+}
+
+.mobile-hero{
+  background: url("../images/heros/DIGITAL_SOLUTIONS/Mobile\ App.png") no-repeat;
+  background-size: cover;
+}
+
+
+
 /* Services heros */
 
 .contact-hero .row div,
