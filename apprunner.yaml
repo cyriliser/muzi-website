@@ -1,0 +1,11 @@
+service:
+  name: https://github.com/cyriliser/muzi-website
+  source:
+    type: REPOSITORY
+    repository:
+      provider: github
+      repositoryUrl: https://github.com/cyriliser/muzi-website
+      sourcePath: .
+  runtime: php:8.2
+  imageConfiguration:
+    port: 8080
